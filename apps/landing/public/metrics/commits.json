@@ -1,5 +1,17 @@
 [
   {
+    "sha": "14f679b784bc859176b791d105895f4b3b3672a3",
+    "commit": {
+      "message": "chore: update mission-control snapshot data [skip ci]",
+      "author": {
+        "date": "2026-10-18T07:59:43Z"
+      }
+    },
+    "author": {
+      "login": "github-actions[bot]"
+    }
+  },
+  {
     "sha": "70dac8eafba9c586f1a713617a84e3bf6f4e0d00",
     "commit": {
       "message": "chore: sync landing download version to v0.158.0",
@@ -1181,18 +1193,6 @@
       "message": "refactor(extension): bring the remaining extension files under 300 code lines (#1330)",
       "author": {
         "date": "2026-10-06T05:49:16Z"
-      }
-    },
-    "author": {
-      "login": "saeedkolivand"
-    }
-  },
-  {
-    "sha": "ca6d073c20829088d196995aa224590d93fe0561",
-    "commit": {
-      "message": "refactor(extension): split the background worker into per-gesture modules under 300 lines (#1328)",
-      "author": {
-        "date": "2026-10-06T05:29:04Z"
       }
     },
     "author": {
