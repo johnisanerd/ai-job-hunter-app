@@ -1,5 +1,29 @@
 [
   {
+    "sha": "d38c31d25f309558f7a635eac482f23730340426",
+    "commit": {
+      "message": "fix(tracking): avoid misleading application status badges (#1441)",
+      "author": {
+        "date": "2026-10-19T19:09:00Z"
+      }
+    },
+    "author": {
+      "login": "NimaNabi"
+    }
+  },
+  {
+    "sha": "288d109964bdc89bd2d9cdcec6decd47e14ea811",
+    "commit": {
+      "message": "chore: update mission-control snapshot data [skip ci]",
+      "author": {
+        "date": "2026-10-19T08:49:17Z"
+      }
+    },
+    "author": {
+      "login": "github-actions[bot]"
+    }
+  },
+  {
     "sha": "14f679b784bc859176b791d105895f4b3b3672a3",
     "commit": {
       "message": "chore: update mission-control snapshot data [skip ci]",
@@ -1169,30 +1193,6 @@
       "message": "refactor(desktop): bring the jobs feature under 300 code lines per file (#1332)",
       "author": {
         "date": "2026-10-06T12:36:50Z"
-      }
-    },
-    "author": {
-      "login": "saeedkolivand"
-    }
-  },
-  {
-    "sha": "33e2f5131b202ab1712285632b9cb5b5d8415d49",
-    "commit": {
-      "message": "chore: update mission-control snapshot data [skip ci]",
-      "author": {
-        "date": "2026-10-06T10:15:08Z"
-      }
-    },
-    "author": {
-      "login": "github-actions[bot]"
-    }
-  },
-  {
-    "sha": "f931e4c107711c8eaee1e3f12c4418b136df12af",
-    "commit": {
-      "message": "refactor(extension): bring the remaining extension files under 300 code lines (#1330)",
-      "author": {
-        "date": "2026-10-06T05:49:16Z"
       }
     },
     "author": {

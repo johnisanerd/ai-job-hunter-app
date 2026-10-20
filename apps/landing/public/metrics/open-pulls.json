@@ -1,19 +1,5 @@
 [
   {
-    "number": 1441,
-    "title": "fix(tracking): avoid misleading application status badges",
-    "html_url": "https://github.com/saeedkolivand/ai-job-hunter-app/pull/1441",
-    "draft": false,
-    "created_at": "2026-10-18T12:13:28Z",
-    "updated_at": "2026-10-18T21:16:57Z",
-    "merged_at": null,
-    "closed_at": null,
-    "requested_reviewers": [],
-    "user": {
-      "login": "NimaNabi"
-    }
-  },
-  {
     "number": 1436,
     "title": "fix(sync): preserve numeric payloads across json round trips",
     "html_url": "https://github.com/saeedkolivand/ai-job-hunter-app/pull/1436",

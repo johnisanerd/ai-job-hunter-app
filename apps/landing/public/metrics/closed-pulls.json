@@ -1,5 +1,19 @@
 [
   {
+    "number": 1441,
+    "title": "fix(tracking): avoid misleading application status badges",
+    "html_url": "https://github.com/saeedkolivand/ai-job-hunter-app/pull/1441",
+    "draft": false,
+    "created_at": "2026-10-18T12:13:28Z",
+    "updated_at": "2026-10-19T19:09:02Z",
+    "merged_at": "2026-10-19T19:09:01Z",
+    "closed_at": "2026-10-19T19:09:01Z",
+    "requested_reviewers": [],
+    "user": {
+      "login": "NimaNabi"
+    }
+  },
+  {
     "number": 1418,
     "title": "docs(sync): add the self-hosted sync adr and v1 protocol, amend the egress boundary adr",
     "html_url": "https://github.com/saeedkolivand/ai-job-hunter-app/pull/1418",
@@ -680,20 +694,6 @@
     "updated_at": "2026-10-06T20:43:09Z",
     "merged_at": "2026-09-26T11:14:11Z",
     "closed_at": "2026-09-26T11:14:11Z",
-    "requested_reviewers": [],
-    "user": {
-      "login": "saeedkolivand"
-    }
-  },
-  {
-    "number": 1288,
-    "title": "refactor(extension-bridge): split the bridge core into modules under 300 lines",
-    "html_url": "https://github.com/saeedkolivand/ai-job-hunter-app/pull/1288",
-    "draft": false,
-    "created_at": "2026-09-28T15:22:00Z",
-    "updated_at": "2026-10-06T20:43:06Z",
-    "merged_at": "2026-09-28T15:22:40Z",
-    "closed_at": "2026-09-28T15:22:40Z",
     "requested_reviewers": [],
     "user": {
       "login": "saeedkolivand"
