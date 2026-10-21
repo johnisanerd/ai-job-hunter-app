@@ -1,5 +1,17 @@
 [
   {
+    "sha": "c38362974c0431c8e788bb7547e5060f90510d1e",
+    "commit": {
+      "message": "chore: update mission-control snapshot data [skip ci]",
+      "author": {
+        "date": "2026-10-20T08:29:35Z"
+      }
+    },
+    "author": {
+      "login": "github-actions[bot]"
+    }
+  },
+  {
     "sha": "d38c31d25f309558f7a635eac482f23730340426",
     "commit": {
       "message": "fix(tracking): avoid misleading application status badges (#1441)",
@@ -1181,18 +1193,6 @@
       "message": "refactor(desktop): bring shared renderer code and small features under 300 code lines (#1333)",
       "author": {
         "date": "2026-10-06T13:06:00Z"
-      }
-    },
-    "author": {
-      "login": "saeedkolivand"
-    }
-  },
-  {
-    "sha": "06de5faaeaf8d40ac88e77889f3a9d9d40ee67e8",
-    "commit": {
-      "message": "refactor(desktop): bring the jobs feature under 300 code lines per file (#1332)",
-      "author": {
-        "date": "2026-10-06T12:36:50Z"
       }
     },
     "author": {
