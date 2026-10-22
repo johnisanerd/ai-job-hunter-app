@@ -1,5 +1,17 @@
 [
   {
+    "sha": "d75787c1b991999c8a7c7f036a3a200fc8e46a0f",
+    "commit": {
+      "message": "chore: update mission-control snapshot data [skip ci]",
+      "author": {
+        "date": "2026-10-21T08:32:01Z"
+      }
+    },
+    "author": {
+      "login": "github-actions[bot]"
+    }
+  },
+  {
     "sha": "c38362974c0431c8e788bb7547e5060f90510d1e",
     "commit": {
       "message": "chore: update mission-control snapshot data [skip ci]",
@@ -1181,18 +1193,6 @@
       "message": "refactor(desktop): bring the applications and autopilot features under 300 code lines (#1334)",
       "author": {
         "date": "2026-10-06T13:07:56Z"
-      }
-    },
-    "author": {
-      "login": "saeedkolivand"
-    }
-  },
-  {
-    "sha": "f22e124f46ab6fdd5963f656e5a0b8fccbfa9bcf",
-    "commit": {
-      "message": "refactor(desktop): bring shared renderer code and small features under 300 code lines (#1333)",
-      "author": {
-        "date": "2026-10-06T13:06:00Z"
       }
     },
     "author": {
