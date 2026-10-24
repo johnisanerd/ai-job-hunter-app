@@ -142,12 +142,17 @@ pub(super) fn apify_run_body(
 }
 
 /// Try to parse the actor's `postedAt` into epoch millis: RFC-3339 first, then a
-/// bare epoch (seconds scaled to millis, or millis as-is). A relative string
-/// ("2 weeks ago") yields `None` — an absent posted date is acceptable.
+/// date-only `YYYY-MM-DD` (midnight UTC), then a bare epoch (seconds scaled to
+/// millis, or millis as-is). A relative string ("2 weeks ago") yields `None` —
+/// an absent posted date is acceptable.
 fn parse_apify_posted_at(s: &str) -> Option<i64> {
     let s = s.trim();
     if let Ok(dt) = chrono::DateTime::parse_from_rfc3339(s) {
         return Some(dt.timestamp_millis());
+    }
+    if let Ok(d) = chrono::NaiveDate::parse_from_str(s, "%Y-%m-%d") {
+        let midnight = d.and_hms_opt(0, 0, 0)?;
+        return Some(midnight.and_utc().timestamp_millis());
     }
     if let Ok(n) = s.parse::<i64>() {
         // < 10^12 ≈ seconds (any plausible ms epoch is far larger).

@@ -197,6 +197,22 @@ fn optional_linkedin_jobs_actor_uses_keyword_input_and_job_fields() {
     assert!(map_apify_item(error, 0).is_none());
 }
 
+/// `postedDate` may be a date-only `YYYY-MM-DD`; it maps to midnight UTC.
+#[test]
+fn apify_parses_date_only_posted_date() {
+    let item: ApifyItem = serde_json::from_value(serde_json::json!({
+        "title": "Example role",
+        "jobUrl": "https://www.linkedin.com/jobs/view/2",
+        "postedDate": "2026-06-20"
+    }))
+    .unwrap();
+    let p = map_apify_item(item, 0).expect("date-only row maps");
+    let expected_ts = chrono::DateTime::parse_from_rfc3339("2026-06-20T00:00:00Z")
+        .unwrap()
+        .timestamp_millis();
+    assert_eq!(p.posted_at, Some(expected_ts));
+}
+
 /// An item with no title — or a title but no URL and no id — is skipped (None).
 #[test]
 fn apify_skips_item_without_title_or_url() {
